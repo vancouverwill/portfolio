@@ -3,13 +3,23 @@
 global $project;
 $project = 'mysite';
 
-global $databaseConfig;
+/*global $databaseConfig;
 $databaseConfig = array(
 	"type" => 'MySQLDatabase',
 	"server" => 'mysql.willmelbourne.com',
 	"username" => '247snowroot', 
 	"password" => 'skateboard',
 	"database" => 'wm_portfolioss',
+	"path" => '',
+);*/
+
+global $databaseConfig;
+$databaseConfig = array(
+	"type" => 'MySQLDatabase',
+	"server" => 'localhost',
+	"username" => 'root',
+	"password" => 'skate8642',
+	"database" => 'silverstripe_WM',
 	"path" => '',
 );
 
