@@ -1,0 +1,19 @@
+[10-Dec-2011 07:36:08] Error at sapphire/core/model/MySQLDatabase.php line 525: Couldn't run query: 
+SELECT "Term"."ClassName", "Term"."Created", "Term"."LastEdited", "Term"."TermCommand", "Term"."Example", "Term"."TermDescription", "Term"."TermPageID", "Term"."ID", CASE WHEN "Term"."ClassName" IS NOT NULL THEN "Term"."ClassName" ELSE 'Term' END AS "RecordClassName"
+FROM "Term"
+WHERE ("TermPageID" = '9')
+LIMIT 10 OFFSET 0 
+
+Unknown column 'Term.TermCommand' in 'field list' (http://www.willmelbourne.com/admin)
+[10-Dec-2011 07:36:08] Error at sapphire/core/model/MySQLDatabase.php line 525: Couldn't run query: 
+SELECT "Term"."ClassName", "Term"."Created", "Term"."LastEdited", "Term"."TermCommand", "Term"."Example", "Term"."TermDescription", "Term"."TermPageID", "Term"."ID", CASE WHEN "Term"."ClassName" IS NOT NULL THEN "Term"."ClassName" ELSE 'Term' END AS "RecordClassName"
+FROM "Term"
+WHERE ("TermPageID" = '9')
+LIMIT 10 OFFSET 0 
+
+Unknown column 'Term.TermCommand' in 'field list' (http://www.willmelbourne.com/admin)
+[03-Jan-2012 08:29:04] Warning at sapphire/core/model/MySQLDatabase.php line 57: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'mysql.willmelbourne.com' (4) (http://www.willmelbourne.com/robots.txt)
+[03-Jan-2012 08:29:26] Warning at sapphire/core/model/MySQLDatabase.php line 57: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 110 (http://www.willmelbourne.com/)
+[03-Jan-2012 08:29:36] Warning at sapphire/core/model/MySQLDatabase.php line 57: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'mysql.willmelbourne.com' (4) (http://www.willmelbourne.com/robots.txt)
+[03-Jan-2012 08:45:24] Warning at sapphire/core/model/MySQLDatabase.php line 57: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 110 (http://www.willmelbourne.com/robots.txt)
+[03-Jan-2012 08:45:45] Warning at sapphire/core/model/MySQLDatabase.php line 57: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 110 (http://www.willmelbourne.com/)
