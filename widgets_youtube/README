@@ -1,0 +1,11 @@
+Youtube Widget 0.0.1 for the SilverStripe Blog Module
+22.09.2008
+By nivanka@whynotonline.com
+
+Released under the BSD license. 
+
+Extract this to your SilverStripe root directory and run "db/build", then visit your blog page and drag and drop the widget to activate. Fill the width, height, URL and the title (or a note for the video), To get the URL please follow the folliong instructions.
+
+1.get the code from youtube.
+2. find the param tag with the name movie
+3. copy and paste the value of that param

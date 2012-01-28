@@ -1,0 +1,62 @@
+#featuredProjectsWidget{
+}
+
+.featuredProjectsWidgetImage{
+	 display: block;
+     float: left;
+     height:80px;
+     margin: 5px;
+    width: 80px;
+    
+    padding:0;
+}
+
+.featuredProjectsWidgetImage a:link, a:visited, a:active {text-decoration:none;}
+
+.featuredProjectsWidgetImage a:hover{text-decoration:none;``}
+
+.featuredProjectsWidgetImage .featuredProjectsImage{
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+
+.featuredProjectsWidgetImage img{
+	border: 1px solid transparent;
+    -webkit-transition: .25s;
+	-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.4);
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,.4);
+	box-shadow: 0px 0px 8px rgba(0,0,0,.4);
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#000000');
+	display: block;	
+	max-width: 75px;
+	margin:0;
+	padding:0;
+}
+
+.featuredProjectsWidgetImage:hover img{
+	/*-webkit-box-shadow: 0px 0px 8px rgba(255,69,192,1);
+	-moz-box-shadow: 0px 0px 8px rgba(255,69,192,1);*/
+	-webkit-box-shadow: 0px 0px 8px rgba(175, 216, 236, 1);
+	-moz-box-shadow: 0px 0px 8px rgba(175, 216, 236, 1);
+	box-shadow: 0px 0px 8px #6EAECC;		/*AFD8EC*/
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#6EAECC')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#6EAECC');
+	border: 1px solid rgb(175, 216, 236); /*3D9ECC*/
+	display: block;	
+	margin:0;
+	padding:0;
+}
+
+
+
+.featuredProjectsWidgetImage img:hover{
+	margin:0;
+	padding:0;
+	
+}
