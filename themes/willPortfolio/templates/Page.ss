@@ -1,7 +1,10 @@
-<!DOCTYPE html>
-
-<html lang="$ContentLocale">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" lang="$ContentLocale">
   <head>
+  
+  	<meta property="fb:app_id" content="243441979064520">
+	<meta property="fb:admins" content="100000503094150">
 		<% base_tag %>
 		<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 		$MetaTags(false)
@@ -30,7 +33,7 @@
 
 </script>
 	</head>
-<body>
+<body class="$class $Title">
 	<div id="BgContainer">
 		<div id="Container">
 			<div id="Header">
