@@ -1,15 +1,6 @@
 
 <% require themedCSS(termPage.css) %>
+<div id="ajaxContent">
+<% include TermTable %>
 
-<table>
-<% control Terms %>
-
-<tr>
-<td class="command">$TermCommand</td>
-<td class="example">$Example</td>
-<td class="description">$TermDescription</td>
-</tr>
-
-	
-<% end_control %>
-</table>
+</div>

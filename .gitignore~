@@ -1,0 +1,6 @@
+/assets
+/silverstripe-cache
+silverstripe-cache/
+_ss_environment.php
+install.php
+.htaccess

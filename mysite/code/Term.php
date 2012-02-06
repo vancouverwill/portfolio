@@ -7,6 +7,8 @@ class Term extends DataObject{
 	,'TermDescription' => 'Text'			 
 	);
 	
+	static $default_sort = "TermDescription DESC";
+	
 	static $has_one = array(
 		 'TermPage' => 'TermPage'
 	);
