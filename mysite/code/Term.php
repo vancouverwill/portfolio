@@ -14,6 +14,7 @@ class Term extends DataObject{
 	);
         
         static $searchable_fields = array(
+	  'TermPage',
           'TermCommand',
           'Example'
        );
