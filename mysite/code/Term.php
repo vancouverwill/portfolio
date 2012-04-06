@@ -14,13 +14,15 @@ class Term extends DataObject{
 	);
         
         static $searchable_fields = array(
-	  'TermPage',
+	'TermPageID' =>array( 'title' => 'Article Type' ) ,
+	  //'TermPageID' = array('title' => 'account'),
           'TermCommand',
           'Example'
        );
         
         static $summary_fields = array(
-          'TermCommand',
+	 'TermPage.Title',
+      'TermCommand',
           'Example'
        );
 	
