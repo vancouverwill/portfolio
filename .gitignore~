@@ -1,6 +1,38 @@
-/assets
-/silverstripe-cache
+!.gitignore
+!.htaccess
+mysite/_live-config.php
+/_live-config.php
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+
+# IDE generated files #
+#######################
+.project
+.settings/
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+
+# SilverStripe folders #
+########################
+assets/
+cms/
+dataobject_manager/
+dbplumber/
+googlesitemaps/
+logs/
+sapphire/
 silverstripe-cache/
-_ss_environment.php
-install.php
-.htaccess
+uploadify/
+userforms/

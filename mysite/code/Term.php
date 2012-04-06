@@ -12,6 +12,16 @@ class Term extends DataObject{
 	static $has_one = array(
 		 'TermPage' => 'TermPage'
 	);
+        
+        static $searchable_fields = array(
+          'TermCommand',
+          'Example'
+       );
+        
+        static $summary_fields = array(
+          'TermCommand',
+          'Example'
+       );
 	
 	public function getTerms_forPopup()
 	{

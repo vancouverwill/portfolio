@@ -14,6 +14,7 @@ Thumbs.db
 # IDE generated files #
 #######################
 .project
+nbproject/*
 .settings/
 
 
