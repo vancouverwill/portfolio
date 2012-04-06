@@ -7,7 +7,7 @@ class MyTermAdmin extends ModelAdmin {
    );
  
   static $url_segment = 'terms'; // will be linked as /admin/products
-  static $menu_title = 'My Term Admin';
+  static $menu_title = 'Term Admin';
  
 }
 ?>

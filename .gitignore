@@ -23,7 +23,7 @@ nbproject/*
 *.log
 *.sql
 *.sqlite
-
+sapphire/errorLog.txt
 
 # SilverStripe folders #
 ########################
