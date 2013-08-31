@@ -21,8 +21,8 @@ ErrorDocument 500 /assets/error-500.html
 	SetEnv HTTP_MOD_REWRITE On
 	RewriteEngine On
 	##RewriteBase /projects/portfolio/porfolioSS
-	##RewriteBase /
-	RewriteBase   /~william/willmelbourneResume/willmelbourne.com/
+	RewriteBase /
+	##RewriteBase   /~william/willmelbourneResume/willmelbourne.com/
 
 	RewriteCond %{REQUEST_URI} ^(.*)$
 	RewriteCond %{REQUEST_FILENAME} !-f

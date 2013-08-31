@@ -21,7 +21,7 @@ class Term extends DataObject{
        );
         
         static $summary_fields = array(
-	 'TermPage.Title',
+//	 'TermPage.Title',
       'TermCommand',
           'Example'
        );

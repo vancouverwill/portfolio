@@ -1,6 +1,7 @@
 !.gitignore
 !.htaccess
 mysite/_live-config.php
+mysite/_config.php
 /_live-config.php
 
 # OS generated files #
@@ -24,6 +25,8 @@ nbproject/*
 *.sql
 *.sqlite
 sapphire/errorLog.txt
+
+*.errorLog.txt
 
 # SilverStripe folders #
 ########################
